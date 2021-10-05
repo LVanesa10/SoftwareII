@@ -8,5 +8,7 @@ import net.software.backendcursojava.entities.UserEntity;
 @Repository
 public interface UserRespository extends CrudRepository<UserEntity, Long>{
 
+    public UserEntity findUserByEmail (String email); 
+    
     
 }
