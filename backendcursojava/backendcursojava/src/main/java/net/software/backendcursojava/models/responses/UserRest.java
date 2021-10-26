@@ -2,18 +2,11 @@ package net.software.backendcursojava.models.responses;
 
 public class UserRest {
 
-    private String userId; //devuelveun id al usuario
     private String firstName;
     private String lastName;
     private String email;
+    private String password;
     
-    
-    public String getUserId() {
-        return userId;
-    }
-    public void setUserId(String userId) {
-        this.userId = userId;
-    }
     public String getFirstName() {
         return firstName;
     }
@@ -31,5 +24,11 @@ public class UserRest {
     }
     public void setEmail(String email) {
         this.email = email;
+    }
+    public String getPassword() {
+        return password;
+    }
+    public void setPassword(String password) {
+        this.password = password;
     }
 }

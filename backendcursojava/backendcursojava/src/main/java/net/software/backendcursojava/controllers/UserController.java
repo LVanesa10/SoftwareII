@@ -38,9 +38,7 @@ public class UserController {
         
         BeanUtils.copyProperties(createdUser, userToReturn);
 
-
-
-        return null;
+        return userToReturn;
     }
 
 }
