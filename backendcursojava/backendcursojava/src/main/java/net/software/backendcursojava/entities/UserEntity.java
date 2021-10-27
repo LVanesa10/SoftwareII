@@ -9,6 +9,7 @@ import javax.persistence.Id;
 
 @Entity(name = "users")
 public class UserEntity implements Serializable{
+
     private static final Long seriaVersionIUD = 1L;
 
     @Id
@@ -29,10 +30,6 @@ public class UserEntity implements Serializable{
 
     @Column(nullable = false)
     private String encryptedPassword;
-
-    public static Long getSeriaversioniud() {
-        return seriaVersionIUD;
-    }
 
     public Long getId() {
         return id;

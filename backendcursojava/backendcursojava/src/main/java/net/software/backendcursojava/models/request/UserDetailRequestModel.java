@@ -1,6 +1,7 @@
 package net.software.backendcursojava.models.request;
 
 public class UserDetailRequestModel {
+    
     private String firstName;
     private String lastName;
     private String email;
