@@ -35,6 +35,10 @@ public class UserEntity implements Serializable{
         return id;
     }
 
+    public static Long getSeriaversioniud() {
+        return seriaVersionIUD;
+    }
+
     public void setId(Long id) {
         this.id = id;
     }
