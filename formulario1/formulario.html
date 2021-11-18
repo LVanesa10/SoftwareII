@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario de Información</title>
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<main> 
+
+		<form action="" class="formulario" id="formulario">
+            <h1 class="titulo">FORMULARIO DE INFORMACIÓN</h1>
+            <h2>*No dejar campos vacios.</h2>
+		
+			<div class="formulario__grupo" id="grupo__nombre">
+				<label for="nombre" class="formulario__label">Nombre</label>
+					<input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="*Campo obligatorio">
+                    <div>				
+                        <p class="formulario__input-error">Campo obligatorio</p>
+                    </div>
+            </div>
+            
+
+			<div class="formulario__grupo" id="grupo__apellidos">
+                    <label for="apellidos" class="formulario__label">Apellidos</label>           
+					<input type="text" class="formulario__input" name="apellidos" id="apellidos" placeholder="*Campo obligatorio">
+                        <div>				
+                            <p class="formulario__input-error">Campo obligatorio</p>
+                        </div>
+                </div>
+            
+            <div class="formulario__grupo" id="grupo__documento">
+                    <label for="documento" class="formulario__label">Tipo de Documento</label>           
+					<input type="documento" class="formulario__input" name="documento" id="documento" placeholder="*Campo obligatorio">
+                        <div>				
+                            <p class="formulario__input-error">Campo obligatorio</p>
+                        </div>
+                </div>
+
+             <div class="formulario__grupo" id="grupo__ndocumento">
+                    <label for="ndocumento" class="formulario__label">Número de Documento</label>           
+					<input type="text" class="formulario__input" name="ndocumento" id="ndocumento" placeholder="*Campo obligatorio">
+                        <div>				
+                            <p class="formulario__input-error">Campo obligatorio</p>
+                        </div>
+                </div>
+
+            <div class="formulario__grupo" id="grupo__direccion">
+                    <label for="direccion" class="formulario__label">Dirección de Residencia</label>           
+					<input type="text" class="formulario__input" name="direccion" id="direccion" placeholder="*Campo obligatorio">
+                        <div>				
+                            <p class="formulario__input-error">Campo obligatorio</p>
+                        </div>
+                </div>
+
+             <div class="formulario__grupo" id="grupo__ciudad">
+                    <label for="ciudad" class="formulario__label">Ciudad de Residencia</label>           
+					<input type="text" class="formulario__input" name="ciudad" id="ciudad" placeholder="*Campo obligatorio">
+                        <div>				
+                            <p class="formulario__input-error">Campo obligatorio</p>
+                        </div>
+                </div>
+
+            <div class="formulario__grupo" id="grupo__telefono">
+                    <label for="telefono" class="formulario__label">Teléfono</label>           
+					<input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="*Campo obligatorio">
+                        <div>				
+                            <p class="formulario__input-error">Campo obligatorio</p>
+                        </div>
+                </div>
+
+             <div class="formulario__grupo" id="grupo__email">
+                    <label for="email" class="formulario__label">Email</label>           
+					<input type="email" class="formulario__input" name="email" id="email" placeholder="*Campo obligatorio">
+                        <div>				
+                            <p class="formulario__input-error">Campo obligatorio</p>
+                        </div>
+                </div>
+
+            <div class="formulario__mensaje" id="formulario__mensaje">
+                    <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+                </div>
+
+            <div class="formulario__grupo formulario__grupo-btn-enviar">
+                    <button type="submit" class="formulario__btn">Enviar</button>
+                    <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+                </div>
+
+        	</form>
+        </main>
+
+        <script src="formulario.js"></script>
+        <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
